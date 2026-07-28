@@ -9,4 +9,4 @@
                        Developed by M4X
 ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Moahmedmix/Hyper_EVA_M4X/refs/heads/main/Mix/Game/EVADE/Neo_Hyper_EVADE.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MITTO-m4x/Hyper_M4X_EVA/refs/heads/main/Game/EVADE/Neo_Hyper_EVADE.lua"))()
