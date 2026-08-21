@@ -15,7 +15,7 @@ local DiscordLink = "https://discord.gg/YbDMqpAr3a"
 -- 1. First Notification: Loading Script
 StarterGui:SetCore("SendNotification", {
     Title = "NEO HYPER EVADE",
-    Text = "Script is loading, please wait 30 seconds...",
+    Text = "The script has been discontinued.",
     Icon = "rbxassetid://6023426926",
     Duration = 5
 })
@@ -49,6 +49,16 @@ task.delay(2, function()
         Callback = Bindable
     })
 end)
-
+StarterGui:SetCore("SendNotification", {
+    Title = "NEO HYPER EVADE",
+    Text = "The script has been discontinued.",
+    Icon = "rbxassetid://6023426926",
+    Duration = 5
+})
+StarterGui:SetCore("SendNotification", {
+    Title = "NEO HYPER EVADE",
+    Text = "The script has been discontinued.",
+    Icon = "rbxassetid://6023426926",
+    Duration = 5
+})
 -- Main Script Execution
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MITTO-m4x/Hyper_M4X_EVA/refs/heads/main/Game/EVADE_NEO_AIL_IN_1.lua"))()
